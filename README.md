@@ -1,2 +1,2 @@
 # hello-c
-c demo
+c demo doc
