@@ -81,7 +81,7 @@
 |->   |指针型成员调用   |ptr->age = 34;   |可重载   |
 |.|对象型成员调用|obj.age = 34;|不可重载|
 |++|后自增运算符|for( int i = 0; i < 10; i++ ) cout << i;|可重载|
-|- -|后自减运算符|for( int i = 10; i > 0; i-- ) cout << i;可重载|
+|--|后自减运算符|for( int i = 10; i > 0; i-- ) cout << i;|可重载|
 |const_cast|特殊属性转换 |const_cast<type_to>(type_from);|不可重载|
 |dynamic_cast| 特殊属性转换| dynamic_cast<type_to>(type_from);| 不可重载|
 |static_cast| 特殊属性转换 |static_cast<type_to>(type_from);| 不可重载|
