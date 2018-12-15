@@ -89,10 +89,11 @@
 |typeid| 对象类型符| cout « typeid(var).name(); cout « typeid(type).name();| 不可重载|
 |第三级别   |   |   |   |
 |!|逻辑取反|if( !done ) …|可重载|
-|not|! 的另一种表达|~|按位取反|flags = ~flags;|可重载|
+|not|! 的另一种表达|   |   |
+|~|按位取反|flags = ~flags;|可重载|
 |compl|~的另一种表达|   |   |
 |++|预自增运算符|for( i = 0; i < 10; ++i ) cout << i;|可重载|
-|- -|预自减运算符|for( i = 10; i > 0; --i ) cout << i;|可重载|
+|--|预自减运算符|for( i = 10; i > 0; --i ) cout << i;|可重载|
 |-|负号|int i = -1;|可重载|
 |+|正号|int i = +1;|可重载|
 |*|指针取值|int data = *intPtr;|可重载|
