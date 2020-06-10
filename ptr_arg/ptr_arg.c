@@ -88,7 +88,7 @@ int main(int argc,  char **argv)
 			printf("str_ptr not malloc success\n");
 		} else {
 			strcpy(str_ptr, "hello malloc");
-			printf("str_ptr malloc success, str_ptr addr: %p, *str_ptr addr: %p\n", str_ptr, *str_ptr);
+			printf("str_ptr malloc success, &str_ptr addr: %p, str_ptr addr: %p\n", &str_ptr, str_ptr);
 			free(str_ptr);
 		}
 	} else {
