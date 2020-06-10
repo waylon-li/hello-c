@@ -23,3 +23,14 @@ int main()
    
    return 0;
 }
+
+/* output */
+/*
+Hello, World! 
+str_a: 1, sizeof(str_a): 8
+str_b: 2, sizeof(str_b): 8
+str_c: 4, sizeof(str_c): 8
+arr_a: 1, sizeof(arr_a): 2
+arr_b: 2, sizeof(arr_b): 2
+arr_c: 3 34, sizeof(arr_c): 5
+*/
